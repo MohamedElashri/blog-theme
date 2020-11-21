@@ -1,0 +1,50 @@
+{{!------------------------------
+To add a new social icon simply add an icon listed within the Font Awesome toolkit.
+Add the class in the <i> tag to match the desired social network
+and then add your link to the <a>.
+--------------------------------}}
+<ul class="social expanded">
+
+    <!-- Facebook -->
+    {{#if @site.facebook}}
+        <li class="social item hvr-grow-rotate">
+            <a id="facebook" rel="me" target="_blank" href="{{facebook_url}}" title="Mohamed IBrahim">
+                <i class='fa fa-facebook-official'></i>
+                <span class="label">Facebook</span>
+            </a>
+        </li>
+    {{/if}}
+    <!-- Twitter -->
+    {{#if @site.twitter}}
+        <li class="social item hvr-grow-rotate">
+            <a id="twitter" rel="me" target="_blank" href="{{twitter_url}}" title="@MIBElashri on Twitter">
+                <i class='fa fa-twitter'></i>
+                <span class="label">Twitter</span>
+            </a>
+        </li>
+    {{/if}}
+
+    <!-- Linkedin -->
+    <li class="social item hvr-grow-rotate">
+        <a id="linkedIn" rel="me" target="_blank" href="https://www.linkedin.com/in/mohamedelashri1/" title="Kelyvin LinkedIn">
+            <i class='fa fa-linkedin-square'></i>
+            <span class="label">Linkedin</span>
+        </a>
+    </li>
+
+    <!-- Github -->
+    <li class="social item hvr-grow-rotate">
+        <a id="github" rel="me" target="_blank" href="https://www.github.com/MohamedElashri" title="Kelyvin on Github">
+            <i class='fa fa-github'></i>
+            <span class="label">Github</span>
+        </a>
+    </li>
+
+    <!-- RSS -->
+    <li class="social item hvr-grow-rotate">
+        <a href="/rss/" title="Subscribe to RSS">
+            <i class='fa fa-rss'></i>
+            <span class="label">RSS</span>
+        </a>
+    </li>
+</ul>
