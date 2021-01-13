@@ -58,7 +58,7 @@
     "@fortawesome/fontawesome-free": "5.15.1",
     "bourbon": "4.3.4",
     "fitvids": "2.1.1",
-    "fontfaceobserver": "2.0.13",
+    "fontfaceobserver": "2.1.0",
     "ghosthunter": "git://github.com/jamalneufeld/ghostHunter.git",
     "prismjs": "1.15.0",
     "store": "2.0.12",
