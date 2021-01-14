@@ -47,7 +47,7 @@
     "gulp-minify-css": "1.2.4",
     "gulp-sass": "4.0.1",
     "gulp-strip-css-comments": "1.2.0",
-    "gulp-uglify": "3.0.1",
+    "gulp-uglify": "3.0.2",
     "underscore.string": "3.3.5"
   },
   "engines": {
