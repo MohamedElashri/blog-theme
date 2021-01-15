@@ -56,7 +56,7 @@
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.15.2",
-    "bourbon": "4.3.4",
+    "bourbon": "7.0.0",
     "fitvids": "2.1.1",
     "fontfaceobserver": "2.0.13",
     "ghosthunter": "git://github.com/jamalneufeld/ghostHunter.git",
