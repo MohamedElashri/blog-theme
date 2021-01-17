@@ -1,0 +1,25 @@
+version = 1
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+
+  [analyzers.meta]
+  environment = [
+    "jquery",
+    "jest",
+    "browser",
+    "jasmine",
+    "mongo",
+    "mocha"
+  ]
+  plugins = [
+    "ember",
+    "angular",
+    "angularjs",
+    "vue",
+    "meteor",
+    "react"
+  ]
+  style_guide = "standard"
+  dialect = "flow"
