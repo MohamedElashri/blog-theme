@@ -55,7 +55,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "5.15.2",
+    "@fortawesome/fontawesome-free": "5.15.3",
     "bourbon": "7.0.0",
     "fitvids": "2.1.1",
     "fontfaceobserver": "2.1.0",
