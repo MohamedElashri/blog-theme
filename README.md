@@ -63,7 +63,7 @@ If you have your Ghost blog hosted on git and you want to continuously get the l
 [Submodule "content/themes/theme"]
       path = content/themes/theme
       url = https://github.com/MohamedElashri/blog-theme.git
-      ```
+ ```
 
 ## Customizations
 
