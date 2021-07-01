@@ -36,7 +36,7 @@
     "ghost-theme"
   ],
   "devDependencies": {
-    "browser-sync": "2.27.3",
+    "browser-sync": "2.27.4",
     "coffee-script": "1.12.7",
     "gulp": "4.0.2",
     "gulp-autoprefixer": "8.0.0",
